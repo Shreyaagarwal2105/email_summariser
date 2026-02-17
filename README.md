@@ -6,7 +6,7 @@ An automated email triage tool for the Wowcher product team. Fetches emails from
 
 ## How It Works
 
-1. **Fetches** only new emails from `product-team@wowcher.co.uk` since the last run (incremental scan)
+1. **Fetches** only new emails from `inbox` since the last run (incremental scan)
 2. **Filters** out automated/irrelevant emails (e.g. no-reply senders, release requests)
 3. **Classifies** each email using OpenAI - assigns category, urgency, summary and owner
 4. **Appends** results to a shared Excel file on SharePoint (sorted by urgency)
